@@ -1,3 +1,46 @@
+*{
+  border: 2px solid red;
+}
 body {
   background: peachpuff;
+  position: absolute;
+  top: 0;
+  min-width: 100%;
+  min-height: 100%;
+
+}
+
+.container {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    min-width: 100%;
+    position: relative;
+    justify-content: space-evenly;
+}
+.midBoxes {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: rgb(243, 150, 134);
+}
+.rowOne { 
+  flex-direction: row;
+  margin: auto;
+  min-width: 100%;
+  background-color: rgb(243, 150, 134);
+}
+.rowTwo { 
+  /* display: inline-block; */
+  margin: auto;
+  min-width: 100%;
+  background-color: rgb(135, 214, 135);
+}
+.a{
+  background-color: rgb(138, 229, 166);
+}
+
+.h{
+  background-color: rgb(136, 120, 182);
 }
